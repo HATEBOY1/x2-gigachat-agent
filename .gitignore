@@ -1,0 +1,50 @@
+# Python environments and generated caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+/example/*/build/
+/example/*/dist/
+
+# Local credentials (keep distributable templates)
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local diagnostics: logs, recordings, downloaded tools and DLL backups
+/.diagnostics/
+*.log
+*.wav
+!example/x2_agent/x2_agent/greeting.wav
+!example/x2_agent/x2_agent/tts.wav
+/example/*/recordings/
+/example/*/output/
+
+# Editor and operating-system artifacts
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.swp
+
+# Portable binaries are downloaded locally or attached to GitHub Releases.
+/exe/
+/release/
+/build/
+*.sln
+unity-agent-playground/Assets/ML-Agents/
+unity-agent-playground/Assets/ML-Agents.meta
+unity-agent-playground/Assets/XRI/
+unity-agent-playground/Assets/XRI.meta
+linksoul-agent-client/
